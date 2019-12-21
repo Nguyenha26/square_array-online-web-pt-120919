@@ -3,3 +3,8 @@ def square_array[2**2, 3**2, 4**2]
     puts "#{square_array}"
 end
 
+def square_array(array)
+  squared = []
+  array.each { |element| squared << element ** 2 }
+  squared
+end
